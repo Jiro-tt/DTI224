@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="accentGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+  </defs>
+
+  <!-- Base App Tile (Rounded Square for PWA) -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGlow)" />
+
+  <!-- Main Resume Document Base -->
+  <rect x="112" y="96" width="288" height="320" rx="24" fill="#FFFFFF" />
+
+  <!-- Folded Corner Accent -->
+  <path d="M 336 96 L 400 160 H 360 A 24 24 0 0 1 336 136 Z" fill="#E2E8F0" />
+
+  <!-- Avatar Header Circle -->
+  <circle cx="184" cy="180" r="32" fill="url(#accentGlow)" />
+
+  <!-- Avatar Body Silhouette -->
+  <path d="M 152 232 C 152 212, 216 212, 216 232" stroke="url(#accentGlow)" stroke-width="12" stroke-linecap="round" fill="none" />
+
+  <!-- Resume Content Placeholder Lines -->
+  <!-- Name/Title Line -->
+  <line x1="240" y1="172" x2="352" y2="172" stroke="#0F172A" stroke-width="12" stroke-linecap="round" />
+  <line x1="240" y1="200" x2="312" y2="200" stroke="#94A3B8" stroke-width="10" stroke-linecap="round" />
+
+  <!-- Divider Line -->
+  <line x1="152" y1="264" x2="360" y2="264" stroke="#E2E8F0" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Experience/Skill Lines -->
+  <line x1="152" y1="300" x2="360" y2="300" stroke="#64748B" stroke-width="10" stroke-linecap="round" />
+  <line x1="152" y1="332" x2="320" y2="332" stroke="#94A3B8" stroke-width="10" stroke-linecap="round" />
+  <line x1="152" y1="364" x2="272" y2="364" stroke="#CBD5E1" stroke-width="10" stroke-linecap="round" />
+</svg>
