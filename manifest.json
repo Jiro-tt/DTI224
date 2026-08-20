@@ -1,7 +1,7 @@
 {
     "name": "My Resume",
     "short_name": "Resume",
-    "short_url": "jiro-tt.github.io/DTI224/",
+    "short_url": "https://jiro-tt.github.io/DTI224/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
