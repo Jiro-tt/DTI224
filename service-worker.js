@@ -2,7 +2,7 @@ self.addEventListener("install",(event)=>{
   event.waitUntil(
     caches.open('pwa-cache').then((cache)=>{
       return caches.addAll([
-        'jiro-tt.github.io/DTI224/'.
+        'https://jiro-tt.github.io/DTI224/'.
         'index.html',
         'style.css'
       ]);
